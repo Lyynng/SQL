@@ -1,4 +1,4 @@
---c‚u 1--
+--c√¢u 1--
 CREATE DATABASE TOY2
 ON PRIMARY
   ( NAME='TOY_DATA',
@@ -24,11 +24,11 @@ LOG ON
     SIZE=2MB,
     MAXSIZE=10MB,
     FILEGROWTH=1MB);
---c‚u 2--
+--c√¢u 2--
 CREATE TYPE [dbo].[Category_Type] FROM [char](3) NULL
 CREATE TYPE [dbo].[OrderNumber] FROM [nvarchar](25) NULL
 CREATE TYPE [dbo].[Phone] FROM [char](12) NULL
---c‚u 3--
+--c√¢u 3--
 create table Toys
 	(ToyId char(6) primary key,
 	 ToyName varchar(20),
